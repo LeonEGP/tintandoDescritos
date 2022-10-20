@@ -1,4 +1,4 @@
-//Programa que: Implementa una solución para el "Graph Coloring.
+//Programa que: Implementa una solución para el "Graph Coloring".
 //Programadores: León Emiliano García Pérez [A00573074] y Carla Morales López [A01639225].
 //Fecha de entrega: Jueves 19 de Octubre de 2022.
 
@@ -103,17 +103,3 @@ int main() { //Complejidad Computacional: O(1), dentro de la ejecución se encue
 
     return 0;
 }
-
-/*
-REFERENCIAS:
-    PRINCIPALES:
-        https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/
-        https://www.tutorialspoint.com/Graph-Coloring
-        https://stackoverflow.com/questions/50550398/graph-colouring-in-using-adjacency-matrix
-        https://www.sanfoundry.com/cpp-program-perform-greedy-coloring/
-    OTRAS:
-        https://www.interviewbit.com/blog/graph-coloring-problem/
-        https://www.techiedelight.com/greedy-coloring-graph/
-        https://antiguadominic.medium.com/graph-coloring-adjacency-matrix-discrete-math-problem-8bf98295e0d0
-        https://www.geeksforgeeks.org/graph-coloring-set-2-greedy-algorithm/
-*/
