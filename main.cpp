@@ -74,7 +74,7 @@ void coloreadoDeGrafos(vector <vector <bool>> matriz, int cantidadColores) { //C
 }
 
 //Función main de ejecución del programa, no recibe valores, retorna un valor 0 al finalizar la ejecución.
-int main() { //Complejidad Computacional: O(1),
+int main() { //Complejidad Computacional: O(1), dentro de la ejecución se encuentra un ciclo for anidado dentro de otro ciclo for, dando una Complejidad Computacional O(n^2) para la creación de la Matriz de Adyacencia del Grafo. Finalmente, el Coloreado del Grafo poseé una Complejidad Computacional: O(c^n); siendo c la cantidad de colores, y n la cantidad de nodos en el grafo.
 
     int n; //Cantidad de nodos en el grafo.
     int cantidadColores;
